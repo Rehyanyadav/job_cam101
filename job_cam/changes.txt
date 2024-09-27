@@ -1,0 +1,4 @@
+Today's Changes in half day 
+
+1) Ui Changes i) Dashboard Ui Updates
+              ii) Camera Module Ui setup
