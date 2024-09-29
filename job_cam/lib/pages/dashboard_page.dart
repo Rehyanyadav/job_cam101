@@ -1,10 +1,8 @@
-// ignore: unused_import
-import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+
 
 import 'package:bottom_bar_matu/bottom_bar_matu.dart';
 
-import 'camera_page.dart';
 import 'dashboard_home.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -28,6 +26,7 @@ class _DashboardPageState extends State<DashboardPage> {
     return Scaffold(
       bottomNavigationBar: BottomBarBubble(
         color: Colors.blue,
+        height: 75.0,
         backgroundColor: Colors.black,
         bubbleSize: 30.0,
         items: [
@@ -63,7 +62,7 @@ class _DashboardPageState extends State<DashboardPage> {
             child: HomeDashboard(),
           ),
           Center(
-            child: CamCompanyStyleCameraUI(),
+            child: Text('Second Page'),
           ),
           Center(
             child: Text('Third Page'),
