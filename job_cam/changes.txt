@@ -1,0 +1,5 @@
+Today's change is about the UI change 
+1) Camera module
+2) Dashboad chamge 
+3) Inegration of Firebase with App
+4) Authentication of the FlutterFire 
